@@ -104,12 +104,12 @@ The API responds with a JSON object containing the title of the video and downlo
 
 ```bash
 {
-    "success": true,
-    "title": "Example Video Title",
     "links": {
         "Download Low Quality": "https://example.com/sd_link&dl=1",
         "Download High Quality": "https://example.com/hd_link&dl=1"
-    }
+    },
+    "success": true,
+    "title": "Example Video Title"
 }
 ```
 
@@ -117,6 +117,8 @@ If an error occurs (e.g., invalid URL), the API responds with:
 
 ```bash
 {
+    "links": {
+    },
     "success": false,
     "message": "Error message"
 }
