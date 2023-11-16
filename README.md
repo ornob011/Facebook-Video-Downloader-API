@@ -17,7 +17,7 @@ Follow these instructions to set up the project on your local machine for develo
 1. **Clone the Repository**:
    Clone this repository to your local machine using:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/ornob011/Facebook-Video-Downloader-API
    ```
 
 2. **Install Dependencies**:
