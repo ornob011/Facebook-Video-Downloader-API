@@ -122,6 +122,12 @@ If an error occurs (e.g., invalid URL), the API responds with:
 }
 ```
 
+### Important Notice
+
+#### Warning: This API cannot retrieve download links for private videos on Facebook. It only works with videos that are publicly accessible. If you attempt to fetch links for a private video, the API will not be able to retrieve the necessary data and will return an error message.
+
+Always ensure that the URL provided is for a public Facebook video. This limitation is due to privacy restrictions on Facebook's platform.
+
 ### Troubleshooting
 
 - Ensure that the provided URL is a valid Facebook video URL (e.g., https://www.facebook.com/watch/?v=409178427022717).
